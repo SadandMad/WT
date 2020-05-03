@@ -1,0 +1,29 @@
+    <header align="center">
+        <h1>УСЛУГИ</h1>
+        <div class="info">Мы, конечно, можем всё</div>
+        <div class="subinfo">Но за это придётся доплатить</div>
+        <div class="realinfo">А если серьёзно, здесь вы найдёте всю необходимую информацию.</div>
+    </header>
+    <main>
+        <table align="center">
+            <tr>
+                <td>
+                    <img src="Images/Serv.png" height="90" width="120">
+                    <h2>МЕЖДУНАРОДНЫЕ ГРУЗОПЕРЕВОЗКИ</h2>
+                    <p>Доверьте нам доставку Вашего груза!<br>Мы говорим на всех языках Европы</p>
+                </td>
+                <td>
+                    <img src="Images/Serv.png" height="90" width="120">
+                    <h2>УСЛУГИ ЭКСПЕДИТОРОВ</h2>
+                    <p>Экспедирование грузов от стран СНГ<br>до государств Европы, дальнего зарубежья</p>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="padding-left: 20%">
+                    <img src="Images/Serv.png" height="90" width="120">
+                    <h2 style="text-align: left;">АРЕНДА ТЕХНИКИ</h2>
+                    <p>Работаем по всей Республике Беларусь.<br>Вы можете самостоятельно забрать технику из пункта стоянки,<br>либо заказать доставку</p>
+                </td>
+            </tr>
+        </table>
+    </main>
