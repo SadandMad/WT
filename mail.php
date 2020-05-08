@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>EMail picker</title>
+    <title>EMail picker</title>
 </head>
 <body>
     <form  method="POST">
@@ -21,7 +21,7 @@
 <?php
 function MailReplace($text)
 {
-    $mail = '/[a-zA-Z0-9\.][a-zA-Z0-9_\.\-]*@[a-zA-Z0-9\.]+\.[a-zA-Z]{2,5}/m';
+    $mail = '/[a-zA-Z0-9\.][a-zA-Z0-9_\.\-]*@[a-zA-Z0-9\.]+\.[a-zA-Z]{2,5}/';
     $saveFile = 'Mail.txt';
 
     echo "<table>\n<tr>\n<td style=\"padding-right: 10px\">\n<pre>";
