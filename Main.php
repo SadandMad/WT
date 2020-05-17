@@ -10,11 +10,6 @@
 <body>
     <?php
         $navs = array('Главная', 'Сотрудники', 'Услуги', '<nobr>О нас</nobr>', 'Связаться');
-        $main = file_get_contents("Main.half");
-        $empl = file_get_contents("Empl.half");
-        $serv = file_get_contents("Serv.half");
-        $about= file_get_contents("About.half");
-        $call = file_get_contents("Call.half");
         
         if(isset($_GET["active"])) {
             $id = $_GET["active"];
@@ -38,18 +33,23 @@
         echo "</nav>\n";
         switch ($id) {
             case 0:
+                $main = file_get_contents("Main.half");
                 echo "$main";
                 break;
             case 1:
+                $empl = file_get_contents("Empl.half");
                 echo "$empl";
                 break;
             case 2:
+                $serv = file_get_contents("Serv.half");
                 echo "$serv";
                 break;
             case 3:
+                $about= file_get_contents("About.half");
                 echo "$about";
                 break;
             case 4:
+                $call = file_get_contents("Call.half");
                 echo "$call";
                 break;
         }
