@@ -1,0 +1,43 @@
+    <header align="center">
+        <h1>СОТРУДНИКИ</h1>
+        <div class="info">Наши сотрудники всегда готовы ответить на любые ваши вопросы и запросы...</div>
+        <div class="subinfo">Если только не спят...</div>
+        <div class="coffeinfo">Или не пьют кофе.</div>
+​        <div class="time">Время работы:<br>Рабочие дни<br>С 9<sup>00</sup> до 18<sup>00</sup></div>
+    </header>
+    <main>
+        <table align="center">
+            <tr>
+                <td>
+                    <img src="Images/Empl.png" height="100" width="100">
+                    <h2>Евгений Крот. Администратор</h2>
+                    <b>Почта: </b><a href="mailto:chemodanik807@gmail.com">chemodanik807@gmail.com</a><br>
+                    <b>Skype: </b>none<br>
+                    <b>Контактный телефон: +375-44-79-89-702</b>
+                </td>
+                <td>
+                    <img src="Images/Empl.png" height="100" width="100">
+                    <h2>Имя Фамилия. Должность</h2>
+                    <b>Почта: </b><br>
+                    <b>Skype: </b><br>
+                    <b>Контактный телефон: </b>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="Images/Empl.png" height="100" width="100">
+                    <h2>Имя Фамилия. Должность</h2>
+                    <b>Почта: </b><br>
+                    <b>Skype: </b><br>
+                    <b>Контактный телефон: </b>
+                </td>
+                <td>
+                    <img src="Images/Empl.png" height="100" width="100">
+                    <h2>Имя Фамилия. Должность</h2>
+                    <b>Почта: </b><br>
+                    <b>Skype: </b><br>
+                    <b>Контактный телефон: </b>
+                </td>
+            </tr>
+        </table>
+    </main>

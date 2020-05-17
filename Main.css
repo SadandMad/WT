@@ -1,0 +1,169 @@
+@media (orientation: portrait)
+{
+body
+{
+	background: url(Images/ФонВ.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #498cc1;
+}
+}
+
+@media (orientation: landscape)
+{
+body
+{
+	background: url(Images/Фон.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #498cc1;
+}
+}
+
+nav
+{
+	text-align: center;
+	font-size: 150%;
+	font-weight: normal;
+	text-shadow: none;
+	display: flex;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+nav a
+{
+	flex: 10%;
+	background-color: transparent;
+	border-left: 5px solid #333;
+	text-decoration: none;
+	color: #333;
+	padding-right: 5%; 
+}
+
+nav a.current
+{
+	background-color: red;
+}
+
+header
+{
+	padding-top: 50px;
+}
+
+header h1
+{
+	text-align: center;
+	color: red;
+	font-family: Arial;
+	font-size: 200%;
+	font-weight: bold;
+	text-shadow: 4px 6px 3px #090909;
+}
+
+.name
+{
+	padding-left: 5%;
+	color: red;
+	font-family: Arial;
+	font-size: 250%;
+	font-weight: bold;
+	text-shadow: 4px 6px 3px #090909;
+}
+
+.info
+{
+	text-align: center;
+	color: #222;
+	font-size: 150%;
+}
+
+.subinfo
+{
+	text-align: center;
+	color: #444;
+	font-size: 125%;
+}
+
+.coffeinfo
+{
+	text-align: center;
+	color: #666;
+	font-size: 100%;
+}
+
+.time
+{
+	text-align: right;
+	padding-right: 35%;
+	color: #222;
+	font-size: 125%;
+}
+
+.realinfo
+{
+	text-align: center;
+	color: #666;
+	font-size: 100%;
+}
+
+main
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+main table
+{
+	padding-right: 25%;
+	padding-left: 25%;
+	padding-bottom: 25px;
+	width: 100%;
+}
+
+main a
+{
+	text-decoration: none;
+	color: #222;
+	font-weight: bold;
+}
+
+main h2
+{
+	text-align: left;
+	color: red;
+	font-family: Arial;
+	font-size: 200%;
+	font-weight: bold;
+	text-shadow: 3px 2px 2px #090909;
+}
+
+main td
+{
+	width: 50%;
+	padding-right: 50px;
+	padding-left: 50px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+footer
+{
+	margin-top: 10px;
+	position: static;
+	align-items: center;
+	width: 99.5%;
+	color: red;
+	background: white;
+	opacity: .5;
+	border:  4px inset red;
+	border-radius: 10px;
+}
+
+footer table
+{
+	width: 100%;
+}
